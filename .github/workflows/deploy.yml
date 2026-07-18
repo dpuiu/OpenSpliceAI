@@ -21,15 +21,15 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-      
+          python-version: "3.12"
+
       - name: Build Sphinx site
-        run: make
+        run: make html
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build/html   
+          path: build/html
 
   deploy:
     needs: build
