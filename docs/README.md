@@ -1,3 +1,3 @@
 # LiftOn-documentation
 
-Check out the full user manual [here](https://dpuiu.github.io/OpenSpliceAI/) 📒
+Check out the full user manual [here](https://Kuanhao-Chao.github.io/openspliceai) 📒
